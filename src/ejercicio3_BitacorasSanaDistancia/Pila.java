@@ -1,6 +1,6 @@
 package ejercicio3_BitacorasSanaDistancia;
 
-// Nodo
+// Pila
 // autor: Lluvia Estefania Villanueva Lazo
 // GTID244
 // fecha: 03 de Noviembre de 2026
