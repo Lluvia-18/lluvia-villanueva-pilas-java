@@ -25,3 +25,22 @@ public class Pila {
         tope = nuevo;
     }
 
+    //Elimina y devuelve la placa del tope.
+     
+    public String pop() {
+        if (tope == null) {
+            return null;
+        }
+
+        String placa = tope.placa;
+        tope = tope.siguiente;
+        return placa;
+    }
+
+    
+     //Indica si la pila está vacía.
+     
+    public boolean estaVacia() {
+        return tope == null;
+    }
+}
