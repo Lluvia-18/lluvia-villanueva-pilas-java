@@ -23,4 +23,15 @@ public class Pila {
         tope = nuevo;
     }
 
-   
+    //Retira y devuelve el número del tope (@return número retirado o -1 si está vacía)
+     
+    public int saca() {
+        if (tope == null) {
+            return -1;
+        }
+
+        int dato = tope.dato;
+        tope = tope.siguiente;
+        return dato;
+    }
+}
