@@ -22,3 +22,21 @@ public class Pila {
         tope = nuevo;
     }
 
+    //Retira y devuelve el carácter del tope.
+     
+    public char pop() {
+        if (tope == null) {
+            return '\0';
+        }
+
+        char dato = tope.dato;
+        tope = tope.siguiente;
+        return dato;
+    }
+
+    //Comprueba si la pila está vacía.
+     
+    public boolean estaVacia() {
+        return tope == null;
+    }
+}
