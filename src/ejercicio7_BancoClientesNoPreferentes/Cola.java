@@ -31,4 +31,20 @@ public class Cola {
         }
     }
 
- 
+    //Retira y devuelve al primer cliente.
+     
+    public String desencolar() {
+        if (frente == null) {
+            return "";
+        }
+
+        String nombre = frente.nombre;
+        frente = frente.siguiente;
+
+        if (frente == null) {
+            fin = null;
+        }
+
+        return nombre;
+    }
+}
