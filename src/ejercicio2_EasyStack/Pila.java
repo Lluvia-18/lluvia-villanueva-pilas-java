@@ -23,4 +23,21 @@ public class Pila {
     }
 
     
-  
+     //Elimina el elemento del tope.
+     
+    public void pop() {
+        if (tope != null) {
+            tope = tope.siguiente;
+        }
+    }
+
+    //Devuelve el elemento del tope.
+     
+    public String top() {
+        if (tope == null) {
+            return "Empty!";
+        }
+
+        return String.valueOf(tope.dato);
+    }
+}
