@@ -23,4 +23,19 @@ public class Pila {
         tope = nuevo;
     }
 
-  
+    //Retira y devuelve el teléfono que está arriba.
+     
+    public int pop() {
+        if (tope == null) {
+            return -1;
+        }
+
+        int telefono = tope.telefono;
+        tope = tope.siguiente;
+        return telefono;
+    }
+
+    public boolean estaVacia() {
+        return tope == null;
+    }
+}
