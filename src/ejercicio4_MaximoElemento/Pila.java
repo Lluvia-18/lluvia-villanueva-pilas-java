@@ -30,4 +30,17 @@ public class Pila {
         tope = nuevo;
     }
 
- 
+    //Elimina el elemento del tope.
+     
+    public void pop() {
+        if (tope != null) {
+            tope = tope.siguiente;
+        }
+    }
+
+    //Devuelve el máximo de la pila.
+     
+    public int obtenerMaximo() {
+        return tope.maximo;
+    }
+}
