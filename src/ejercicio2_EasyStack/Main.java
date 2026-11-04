@@ -1,4 +1,4 @@
-package ejercicio3_EasyStack;
+package ejercicio2_EasyStack;
 
 // Main
 // autor: Lluvia Estefania Villanueva Lazo
