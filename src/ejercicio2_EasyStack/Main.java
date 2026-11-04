@@ -1,6 +1,6 @@
 package ejercicio3_EasyStack;
 
-// Maina
+// Main
 // autor: Lluvia Estefania Villanueva Lazo
 // GTID244
 // fecha: 03 de Noviembre de 2026
